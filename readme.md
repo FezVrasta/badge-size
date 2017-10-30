@@ -19,12 +19,12 @@ their builds to their users. But you can use it for any other purpose of course 
 
  Badge       | URL
 :------------|:---------------------------------------------------------------------------------|
-Normal size  | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.svg)
-Gzipped size | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.svg?compression=gzip)
-Brotli size  | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.svg?compression=brotli)
-Custom label | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.svg?label=As_tiny_as)
-PNG format   | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.png)
-JPG format   | ![](http://img.badgesize.io/ngryman/badge-size/master/index.js.jpg)
+Normal size  | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.svg)
+Gzipped size | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.svg?compression=gzip)
+Brotli size  | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.svg?compression=brotli)
+Custom label | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.svg?label=As_tiny_as)
+PNG format   | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.png)
+JPG format   | ![](https://badge-size.now.sh/fezvrasta/badge-size/master/index.js.jpg)
 
 
 ## Usage
@@ -33,7 +33,7 @@ It works like any other badge service you may know and it's configurable in the 
 Here is the general pattern of a typical `badge-size` url:
 
 ```
-http://img.badgesize.io/:filepath[.svg|png|jpg][?compression=gzip][&label=string][&max=string][&softmax=string]
+http://img.badgesize.io/:filepath[.svg|png|jpg][?compression=gzip|brotli][&label=string][&max=string][&softmax=string]
 ```
 
 #### `:filepath`
@@ -49,7 +49,7 @@ Here is its typical form:
 
 For example if I want to point to this repository `index.js`, it would be:
 
-`https://github.com/`**`ngryman/badge-size/master/index.js`**
+`https://github.com/`**`fezvrasta/badge-size/master/index.js`**
 
 Note that the branch name is mandatory.
 
